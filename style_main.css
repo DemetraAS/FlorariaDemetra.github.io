@@ -1,0 +1,338 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color:#fff;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+*{
+    box-sizing: border-box;
+
+}
+.container{
+    max-width: 100%;
+    background-color: #ffffff;
+    height: auto;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: "monserrat";
+
+}
+h1{
+    font-size: 30px;
+    margin: 0;
+
+}
+.clear{
+    clear: both;
+}
+.btn{
+    background: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family: "monserrat";
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+}
+.btn:hover{
+    color: #fff;
+}
+.btn1:hover{
+    background-color: #E06328;
+}
+.btn2:hover{
+    background-color:#EB5C5C;
+}
+.btn3:hover{
+    background-color:#8C6974;
+}
+.btn4:hover{
+    background-color: #6547A7;
+}
+.btn1{
+    border: 3px solid #E06328;
+    color: #E06328;
+}
+.btn2{
+    border: 2px solid #EB5C5C;
+    color:#EB5C5C;
+}
+.btn3{
+    border: 3px solid #8C6974;
+    color: #8C6974;
+}
+.btn4{
+    border: 3px solid #6547A7;
+    color: #6547A7;
+}
+
+nav{
+    float: left;
+    width: 100%;
+    background-color:#F4A4A4;
+    text-align: center;
+    padding:20px 0px;
+    margin-bottom: 60px;
+    line-height: 20px;
+
+}
+nav .wrap{
+    max-width: 2000px;
+    padding: 0 30px;
+    margin: auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+.wrap .logo {
+    color: #EB5C5C;
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: 600;
+    transform: translate(500px,0px);
+
+}
+.wrap .link{
+    display: inline-flex;
+
+}
+nav .link li{
+    list-style: none;
+    position: relative;
+    
+}
+.link li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 9px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.link li a:hover{
+    background-color:#EB5C5C;
+}
+.link .drop-menu{
+    background-color:#F4A4A4;
+    width: 130px;
+    top:50px;
+    line-height: 45px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+.link li:hover .drop-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.drop-menu li a{
+    width: 100%;
+    display: block;
+    padding: 0 20px 0 0;
+    font-weight: 400;
+    border-radius: 0px;
+}
+
+.menu ul li .fa{
+    color:#EB5C5C;
+    font-size: 30px;
+    transition: .6s;
+}
+
+.menu ul {
+    position: absolute;
+    top: 7%;
+    right: 93%;
+    padding:0%;
+    margin: 0%;
+    transform: translate(0%, 20%);
+    display: flex;
+    list-style-type: none;
+}
+.menu ul li a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: left;
+    transition: .6s;
+}
+header{
+    float: left;
+    width: 100%;
+    text-align: right;
+    padding: 180px 15px;
+    margin-bottom: 60px;
+    background-image: url("173864845_1664569530402871_2854836106679995728_n.png");
+    
+}
+header .head_el {
+    transform: translate(-300px, 0px);
+    font-family: sans-serif;
+    color:#E06328;
+    font-size: 50px ;
+    font-weight: bolder;
+}
+
+
+.sectiune1{
+    float: left;
+    width: 100%;
+    background-color:whitesmoke;
+    text-align: center;
+    padding: 100px 15px;
+    margin-bottom: 60px;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.sectiune1 .continut{
+    float: left;
+    width: 100%;
+    margin-top: 60px;
+}
+.sectiune1 .continut .pancarta{
+    width: 25%;
+    float: left;
+    padding: 20px 10px;
+}
+.sectiune1 .continut .pancarta .cutie {
+    background-color:whitesmoke;
+    padding: 0px 0px;
+    color:#fff;
+    transition: transform 0.5s;
+    
+}
+.sectiune1 .continut .pancarta .cutie:hover{
+    transform: translateY(-10px);
+}
+
+.sectiune3{
+    float: left;
+    width: 100%;
+    background-image: url("174836211_271056811326508_8291778962285920174_n.png");
+    text-align: center;
+    padding: 200px 15px;
+    margin-bottom: 60px;
+}
+.sectiune3 .sec3_el{
+    font-size: 50px;
+    transform: translate(300px, 0px);
+    color: #513D46;
+    font-weight: bold;
+}
+.sectiune2{
+    float: left;
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 50px 15px;
+    margin-bottom: 60px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.sectiune2 .continut{
+    float: left;
+    width: 100%;
+    margin-top: 60px;
+}
+.sectiune2 .continut .stanga{
+    width: 60%;
+    float: left;
+    padding: 0px 10px ;
+}
+
+.sectiune2 .continut .stanga .pancarta{
+    padding: 0px 0px;
+    background-color:whitesmoke;
+    transition: transform 0.5s;
+}
+.sectiune2 .continut .stanga .pancarta:hover{
+transform: translateY(-10px);
+}
+
+.sectiune2 .continut .dreapta{
+    width: 40%;
+    float: left;
+    padding: 0px 10px;
+}
+
+.sectiune2 .continut .dreapta .pancarta{
+    padding: 0px 15px;
+    background-color:whitesmoke;
+    margin-bottom: 60px;
+    transition: transform 0.5s;
+}
+.sectiune2 .continut .dreapta .pancarta:hover{
+    transform: translateY(-10px);
+}
+footer{
+    float: left;
+    width: 100%;
+    background-color: #F4A4A4;
+    text-align: center;
+    padding: 50px 15px;
+    font-size: 20px;
+}
+
+  
+
+
+
+.meniu-social ul {
+    position: relative;
+    bottom: 2%;
+    left:40%;
+    padding:0%;
+    margin: 0%;
+    transform: translate(-50%, -50%,);
+    display: flex;
+}
+
+.meniu-social ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.meniu-social ul li .fa{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color: #000;
+}
+
+.meniu-social ul li .fa:hover{
+    color: #fff;
+}
+
+.meniu-social ul li a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+
+.meniu-social ul li a:hover {
+    transform: translate(0, -20px);
+}
+
+.meniu-social ul li:nth-child(1) a:hover {
+    background-color: #3b5998;
+}
+.meniu-social ul li:nth-child(2) a:hover {
+    background-color:#1da1f2 ;
+}
+.meniu-social ul li:nth-child(3) a:hover {
+    background-color: #c32aa3;
+}
+.meniu-social ul li:nth-child(4) a:hover {
+    background-color: #0a66c2;
+}

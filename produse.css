@@ -1,0 +1,263 @@
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color:whitesmoke;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+*{
+    box-sizing: border-box;
+
+}
+.container {
+    max-width: 100%;
+    background-color: whitesmoke;
+    height: auto;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: "monserrat";
+}
+.clear{
+    clear: both;
+}
+    nav{
+    float: left;
+    width: 100%;
+    background-color:#C82D47;
+    text-align: center;
+    padding:20px 0px;
+    margin-bottom: 60px;
+    line-height: 20px;
+
+}
+nav .wrap{
+    max-width: 2000px;
+    padding: 0 30px;
+    margin: auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+.wrap .logo {
+    color: #E17A8B;
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: 600;
+    transform: translate(500px,0px);
+
+}
+.wrap .link{
+    display: inline-flex;
+
+}
+nav .link li{
+    list-style: none;
+    position: relative;
+    
+}
+.link li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 9px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.link li a:hover{
+    background-color:#E17A8B;
+}
+.link .drop-menu{
+    background-color:#C82D47;
+    width: 130px;
+    top:50px;
+    line-height: 45px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+.link li:hover .drop-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.drop-menu li a{
+    width: 100%;
+    display: block;
+    padding: 0 20px 0 0;
+    font-weight: 400;
+    border-radius: 0px;
+}
+
+.menu ul li .fa{
+    color:#E17A8B;
+    font-size: 30px;
+    transition: .6s;
+}
+
+.menu ul {
+    position: absolute;
+    top: 7%;
+    right: 93%;
+    padding:0%;
+    margin: 0%;
+    transform: translate(0%, 20%);
+    display: flex;
+    list-style-type: none;
+}
+.menu ul li a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: left;
+    transition: .6s;
+}
+
+.rand{
+    display: inline-block;
+    justify-content: space-around;
+
+}
+hr{
+    color: #C82D47;
+    border-width: 4px;
+}
+.categorii{
+    margin: 70px 0;
+}
+ .categ{
+    text-align: center;
+    font-family: "monserrat";
+    font-weight: bold;
+    font-size: 50px;
+}
+.col{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.col img{
+    width: 60%;
+    margin-left: 170px;
+    transition: transform 0.6s ease;
+    margin-top: 70px;
+    padding: 10px 10px 10px 10px;
+    background-color: gainsboro;
+}
+
+.col img:hover{
+    transform: translateY(-10px);
+}
+.btn button{
+    background-color: #E17A8B;
+    font-family: "monserrat";
+    font-size: 30px;
+    border:none;
+    padding: 20px;
+    margin-top: 20px;
+    color: gainsboro;
+    margin-left: 49%;
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.6s ease;
+}
+.btn button:hover{
+    background-color: #C82D47;
+    border-color: #C82D47;
+}
+.col h3{
+    margin-left: 90px;
+    color: #000;
+    transition: transform 0.6s ease;
+    font-weight: bolder;
+}
+.col h3:hover{
+    color: #fff;
+    transform: translateY(-10px);
+}
+.col p{
+    margin-left: 140px;
+    color: #000;
+}
+.sm{
+    background-color: #E17A8B;
+    margin-left: 170px;
+    align-items: center;
+    margin-right: 67px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px #C82D47;
+}
+
+
+
+
+
+
+
+
+footer{
+    float: left;
+    width: 100%;
+    background-color: #C82D47;
+    color: #E89BA8;
+    text-align: center;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+.meniu-social ul {
+    position: relative;
+    bottom: 2%;
+    left:40%;
+    padding:0%;
+    margin: 0%;
+    transform: translate(-50%, -50%,);
+    display: flex;
+}
+
+.meniu-social ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.meniu-social ul li .fa{
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color: #000;
+}
+
+.meniu-social ul li .fa:hover{
+    color: #fff;
+}
+
+.meniu-social ul li a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+
+.meniu-social ul li a:hover {
+    transform: translate(0, -20px);
+}
+
+.meniu-social ul li:nth-child(1) a:hover {
+    background-color: #3b5998;
+}
+.meniu-social ul li:nth-child(2) a:hover {
+    background-color:#1da1f2 ;
+}
+.meniu-social ul li:nth-child(3) a:hover {
+    background-color: #c32aa3;
+}
+.meniu-social ul li:nth-child(4) a:hover {
+    background-color: #0a66c2;
+}

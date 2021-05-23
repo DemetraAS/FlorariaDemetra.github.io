@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("pexels-pixabay-414660.jpg");
+    max-width: 100%;
+    overflow-x: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+.container {
+    max-width: 100%;
+    height: auto;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: "monserrat";
+}
+.clear{
+    clear: both;
+}
+    nav{
+    float: left;
+    width: 100%;
+    background-color:#C82D47;
+    text-align: center;
+    padding:20px 0px;
+    margin-bottom: 60px;
+    line-height: 20px;
+
+}
+nav .wrap{
+    max-width: 2000px;
+    padding: 0 30px;
+    margin: auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+.wrap .logo {
+    color: #E17A8B;
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: 600;
+    transform: translate(500px,0px);
+
+}
+.wrap .link{
+    display: inline-flex;
+
+}
+nav .link li{
+    list-style: none;
+    position: relative;
+    
+}
+.link li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 9px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.link li a:hover{
+    background-color:#E17A8B;
+}
+.link .drop-menu{
+    background-color:#C82D47;
+    width: 130px;
+    top:50px;
+    line-height: 45px;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+.link li:hover .drop-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.drop-menu li a{
+    width: 100%;
+    display: block;
+    padding: 0 20px 0 0;
+    font-weight: 400;
+    border-radius: 0px;
+}
+
+.menu ul li .fa{
+    color:#E17A8B;
+    font-size: 30px;
+    transition: .6s;
+}
+
+.menu ul {
+    position: absolute;
+    top: 7%;
+    right: 93%;
+    padding:0%;
+    margin: 0%;
+    transform: translate(0%, 20%);
+    display: flex;
+    list-style-type: none;
+}
+.menu ul li a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: left;
+    transition: .6s;
+}
+
+
+.acc_page{
+    padding: 50px 0px;
+}
+
+.form_cont{
+    background-color: #fff;
+    width: 500px;
+    height: 600px;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 150px;
+    margin-left: 55%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form_cont span{
+    font-weight: bold;
+    padding: 0 10px;
+    font-size: 30px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline;
+
+}
+
+.form_btn{
+    display: inline-block;
+}
+
+.form_cont form{
+    max-width: 400px;
+    padding: 0 40px;
+    position: absolute;
+    top: 160px;
+    right: 10%;
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #555;
+
+}
+
+.btn{
+    background-color: #E17A8B;
+    font-family: "monserrat";
+    font-size: 20px;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin: 10px;
+    border: 3px solid #E17A8B;
+    color: #000;
+    transition: 0.8s;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #C82D47;
+    border-color: #C82D47;
+}
+
+#ind{
+    width: 100px;
+    border: none;
+    background: #C82D47;
+    height: 5px;
+    margin-top: 8px;
+}
